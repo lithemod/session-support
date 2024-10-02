@@ -1,0 +1,26 @@
+{
+    "name": "lithemod/session-support",
+    "description": "A lightweight and flexible PHP component for managing sessions and flash messages in PHP applications, designed to simplify state management and enhance user experience across various frameworks.",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^11.3"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Lithe\\Support\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "William Humbwavali",
+            "homepage": "https://instagram.com/redeedite"
+        }
+    ],
+    "scripts": {
+        "test": "phpunit"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": {}
+}
